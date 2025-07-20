@@ -9,9 +9,18 @@ public class InterviewCoding_Question {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a String");
-        String str = new String(scanner.next());
+        String input = scanner.next();
+
+
+//        StringBuffer str = new StringBuffer(scanner.next());
+//        String reverse = String.valueOf(str.reverse());
+//        System.out.println(reverse);
 
 
         //System.out.println(str);
+    }
+    static String reverseString(String input){
+
+        return "1";
     }
 }
